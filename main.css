@@ -54,6 +54,11 @@ table {
   background-color: #eff1fc;
 }
 
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -138,6 +143,10 @@ input {
 
 input:invalid:not(:placeholder-shown) {
   border: 2px solid red;
+}
+
+.log-in {
+  margin-top: 20px;
 }
 
 /* Media Queries */
